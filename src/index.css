@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+a.active{
+    @apply rounded-md bg-white 
+}
+
+.transition-top{
+   transition: top 0.2s linear;
+}
